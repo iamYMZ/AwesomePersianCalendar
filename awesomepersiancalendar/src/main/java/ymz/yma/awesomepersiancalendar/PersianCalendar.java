@@ -39,7 +39,7 @@ import ymz.yma.awesomepersiancalendar.Model.PickDayListener;
 import ymz.yma.awesomepersiancalendar.Model.PickedDay;
 
 @SuppressLint("ValidFragment")
-public class DatePicker extends DialogFragment implements PickDayListener {
+public class PersianCalendar extends DialogFragment implements PickDayListener {
 
     View root;
     FrameLayout pager;
@@ -72,7 +72,7 @@ public class DatePicker extends DialogFragment implements PickDayListener {
     }
 
     @SuppressLint("ValidFragment")
-    public DatePicker(CalendarBuilder builder ){
+    public PersianCalendar(CalendarBuilder builder ){
         this.builder = builder;
         cancelable = builder.isCancelable() ;
     }

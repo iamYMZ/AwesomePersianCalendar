@@ -1,0 +1,126 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.jfrog.bintray'
+
+android {
+    compileSdkVersion 28
+
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0.1"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+}
+
+task sourcesJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier = 'sources'
+}
+
+task javadoc(type: Javadoc) {
+    source = android.sourceSets.main.java.srcDirs
+    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier = 'javadoc'
+    from javadoc.destinationDir
+}
+
+artifacts {
+    archives javadocJar
+    archives sourcesJar
+}
+
+group = 'ymz.yma.awesomepersiancalendar' // library package name
+version = '1.0.1' // library version
+
+install {
+    repositories.mavenInstaller {
+        pom.project {
+            name 'Awesome Persian Calendar' // Your good name
+            description 'first customizable minimal persian calendar with lots of availble methods , free for all dear Iranian android developers . wish you all the best'
+            url 'https://github.com/iamYMZ/AwesomePersianCalendar' //
+            inceptionYear '2019'
+
+            packaging 'aar'
+            groupId 'ymz.yma.awesomepersiancalendar' // package name of your library
+            artifactId 'awesomepersiancalendar' //must be same of library name as bintray
+            version '1.0.1'
+
+            licenses {
+                license {
+                    name 'The MIT License (MIT)'
+                    url 'https://opensource.org/licenses/MIT'
+                }
+            }
+            scm {
+                connection 'https://github.com/iamYMZ/AwesomePersianCalendar.git'
+                url 'https://github.com/iamYMZ/AwesomePersianCalendar'
+
+            }
+            developers {
+                developer {
+                    id = 'ymz' //bintray username
+                    name 'MohammadHamed Jabbarkhani'
+                }
+            }
+        }
+    }
+}
+// Bintray
+Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
+
+bintray {
+    // user and key, fetch from local.properties file.
+    // Follow this step
+    /*
+      sdk.dir=/home/umesh/Android/Sdk
+      user=umeshbsa // your username of bitray account
+      key=dd3e540bf673436cee35fc839607fe6252c117cc // bintray key.
+
+      To find this key follow this step-
+      1. Go to edit profile and click 'Api Key' from list.
+      2. Put password and show key. copy and paste here.
+
+      Note : Do not this
+      user="umeshbsa"
+      key="dd3e540bf673436cee35fc839607fe6252c117cc"
+     */
+
+    user = properties.getProperty('user')
+    key = properties.getProperty('key')
+    configurations = ['archives']
+    pkg {
+        repo = 'AwesomePersianCalendar' // must be same as on bintray repo name
+        name = 'awesomepersiancalendar' // must be same of library name as bintray
+        userOrg = 'ymz' // this is username of bintray account
+        licenses = ['MIT']
+        vcsUrl = 'https://github.com/iamYMZ/AwesomePersianCalendar'
+        publish = true
+        version {
+            name = '1.0.1'
+            desc = 'This is updated version 1.0.1'
+            released = new Date()
+            vcsTag = 'v1.0.1'
+        }
+    }
+}

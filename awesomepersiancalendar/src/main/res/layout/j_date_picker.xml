@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/j_rounded"
     android:focusable="true"
+    android:layoutDirection="rtl"
     android:focusableInTouchMode="true"
     android:paddingBottom="14dp">
 
@@ -46,7 +47,7 @@
             android:maxLength="4"
             android:backgroundTint="@android:color/transparent"
             android:inputType="number"
-            android:drawableRight="@android:drawable/ic_menu_edit"
+            android:drawableRight="@drawable/edit"
             android:drawableTint="#666"
             android:layout_marginRight="14dp"
             android:text="1397"/>

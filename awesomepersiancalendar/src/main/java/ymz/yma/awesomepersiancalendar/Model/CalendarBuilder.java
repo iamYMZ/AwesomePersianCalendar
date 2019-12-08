@@ -4,12 +4,12 @@ import android.graphics.Color;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 
-import ymz.yma.awesomepersiancalendar.DatePicker;
+import ymz.yma.awesomepersiancalendar.PersianCalendar;
 import ymz.yma.awesomepersiancalendar.R;
 
 public class CalendarBuilder {
     private FragmentActivity context;
-    private DatePicker datePicker;
+    private PersianCalendar datePicker;
     private boolean isShowing = false;
 
     String cancelText = "بستن", confirmText = "تایید";
@@ -35,7 +35,7 @@ public class CalendarBuilder {
     }
 
     public CalendarBuilder Build() {
-        datePicker = new DatePicker(this);
+        datePicker = new PersianCalendar(this);
         datePicker.setListener(listener);
         return this;
     }

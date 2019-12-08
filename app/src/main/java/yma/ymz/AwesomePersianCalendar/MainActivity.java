@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import ymz.yma.awesomepersiancalendar.DatePicker;
+import ymz.yma.awesomepersiancalendar.PersianCalendar;
 import ymz.yma.awesomepersiancalendar.Model.CalendarBuilder;
 import ymz.yma.awesomepersiancalendar.Model.DatePickedListener;
 
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final CalendarBuilder picker = DatePicker.Builder(this, new DatePickedListener() {
+        final CalendarBuilder picker = PersianCalendar.Builder(this, new DatePickedListener() {
             @Override
             public void onDatePicked(int Year, int Month, int Day) {
                 Toast.makeText(MainActivity.this, " Year : " + Year + " Month : " + Month + " Day : " + Day, Toast.LENGTH_SHORT).show();
