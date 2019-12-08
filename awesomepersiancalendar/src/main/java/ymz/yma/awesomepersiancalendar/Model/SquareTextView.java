@@ -1,4 +1,4 @@
-package yma.ymz.AwesomePersianCalendar.Model;
+package ymz.yma.awesomepersiancalendar.Model;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -6,7 +6,7 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-public class SquareTextView extends TextView {
+public class SquareTextView extends android.support.v7.widget.AppCompatTextView {
 
     public SquareTextView(Context context) {
         super(context);

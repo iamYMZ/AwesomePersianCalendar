@@ -9,43 +9,43 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="8dp"
             android:textColor="#E4E0F2"
             android:text="ش"/>
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#E4E0F2"
             android:padding="5dp"
             android:text="ی"/>
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#E4E0F2"
             android:padding="5dp"
             android:text="د"/>
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#E4E0F2"
             android:padding="5dp"
             android:text="س"/>
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#E4E0F2"
             android:padding="5dp"
             android:text="چ"/>
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#E4E0F2"
             android:padding="5dp"
             android:text="پ"/>
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#E4E0F2"
@@ -58,48 +58,48 @@
         android:id="@+id/firstLayout"
         android:orientation="horizontal">
 
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:id="@+id/d0"
             android:layout_width="wrap_content"
             android:textColor="#000000"
             android:layout_height="wrap_content"
             android:padding="8dp" />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:textColor="#000000"
             android:id="@+id/d1"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:textColor="#000000"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:id="@+id/d2"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:textColor="#000000"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:id="@+id/d3"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:textColor="#000000"
             android:id="@+id/d4"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:textColor="#000000"
             android:id="@+id/d5"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
@@ -112,49 +112,49 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="8dp"
             android:textColor="#000000"
             android:id="@+id/d7"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:textColor="#000000"
             android:id="@+id/d8"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:textColor="#000000"
             android:id="@+id/d9"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:textColor="#000000"
             android:id="@+id/d10"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:textColor="#000000"
             android:id="@+id/d11"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:textColor="#000000"
             android:id="@+id/d12"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
@@ -167,49 +167,49 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="8dp"
             android:textColor="#000000"
             android:id="@+id/d14"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:textColor="#000000"
             android:id="@+id/d15"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:textColor="#000000"
             android:id="@+id/d16"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:textColor="#000000"
             android:id="@+id/d17"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:textColor="#000000"
             android:id="@+id/d18"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:textColor="#000000"
             android:id="@+id/d19"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
@@ -222,49 +222,49 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="8dp"
             android:textColor="#000000"
             android:id="@+id/d21"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:textColor="#000000"
             android:id="@+id/d22"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:textColor="#000000"
             android:id="@+id/d23"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:textColor="#000000"
             android:id="@+id/d24"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:textColor="#000000"
             android:id="@+id/d25"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:textColor="#000000"
             android:id="@+id/d26"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
@@ -277,49 +277,49 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="8dp"
             android:textColor="#000000"
             android:id="@+id/d28"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:textColor="#000000"
             android:id="@+id/d29"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:textColor="#000000"
             android:id="@+id/d30"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:textColor="#000000"
             android:id="@+id/d31"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:textColor="#000000"
             android:id="@+id/d32"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:textColor="#000000"
             android:id="@+id/d33"
             />
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
@@ -333,49 +333,49 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:id="@+id/d35"
             android:layout_width="wrap_content"
             android:textColor="#000000"
             android:layout_height="wrap_content"
             android:padding="8dp" />
 
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:id="@+id/d36"
             android:layout_width="wrap_content"
             android:textColor="#000000"
             android:layout_height="wrap_content"
             android:padding="5dp" />
 
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:id="@+id/d37"
             android:layout_width="wrap_content"
             android:textColor="#000000"
             android:layout_height="wrap_content"
             android:padding="5dp" />
 
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:id="@+id/d38"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#000000"
             android:padding="5dp" />
 
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:id="@+id/d39"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#000000"
             android:padding="5dp" />
 
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:id="@+id/d40"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#000000"
             android:padding="5dp" />
 
-        <yma.ymz.AwesomePersianCalendar.Model.SquareTextView
+        <ymz.yma.awesomepersiancalendar.Model.SquareTextView
             android:id="@+id/d41"
             android:layout_width="wrap_content"
             android:textColor="#000000"

@@ -1,4 +1,4 @@
-package yma.ymz.AwesomePersianCalendar;
+package ymz.yma.awesomepersiancalendar;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -12,10 +12,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import yma.ymz.AwesomePersianCalendar.Model.CalendarBuilder;
-import yma.ymz.AwesomePersianCalendar.Model.PickDayListener;
-import yma.ymz.AwesomePersianCalendar.Model.PickedDay;
-import yma.ymz.AwesomePersianCalendar.Model.SquareTextView;
+import ymz.yma.awesomepersiancalendar.Model.CalendarBuilder;
+import ymz.yma.awesomepersiancalendar.Model.PickDayListener;
+import ymz.yma.awesomepersiancalendar.Model.PickedDay;
+import ymz.yma.awesomepersiancalendar.Model.SquareTextView;
 
 public class Month extends Fragment implements View.OnClickListener {
 

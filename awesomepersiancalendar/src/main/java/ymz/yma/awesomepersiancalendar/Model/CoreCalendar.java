@@ -1,4 +1,4 @@
-package yma.ymz.AwesomePersianCalendar.Model;
+package ymz.yma.awesomepersiancalendar.Model;
 
 import android.os.Build;
 import android.support.annotation.RequiresApi;

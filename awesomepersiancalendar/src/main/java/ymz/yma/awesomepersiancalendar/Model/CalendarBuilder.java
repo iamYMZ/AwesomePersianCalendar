@@ -1,11 +1,11 @@
-package yma.ymz.AwesomePersianCalendar.Model;
+package ymz.yma.awesomepersiancalendar.Model;
 
 import android.graphics.Color;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 
-import yma.ymz.AwesomePersianCalendar.DatePicker;
-import yma.ymz.AwesomePersianCalendar.R;
+import ymz.yma.awesomepersiancalendar.DatePicker;
+import ymz.yma.awesomepersiancalendar.R;
 
 public class CalendarBuilder {
     private FragmentActivity context;

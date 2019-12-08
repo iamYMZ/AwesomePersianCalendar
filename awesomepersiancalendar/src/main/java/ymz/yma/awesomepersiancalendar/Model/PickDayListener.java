@@ -1,4 +1,4 @@
-package yma.ymz.AwesomePersianCalendar.Model;
+package ymz.yma.awesomepersiancalendar.Model;
 
 public interface PickDayListener {
     void OnDayPicked(int day);

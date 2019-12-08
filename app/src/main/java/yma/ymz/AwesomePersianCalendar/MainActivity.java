@@ -1,14 +1,13 @@
 package yma.ymz.AwesomePersianCalendar;
 
 import android.graphics.Color;
-import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
-
-import yma.ymz.AwesomePersianCalendar.Model.CalendarBuilder;
-import yma.ymz.AwesomePersianCalendar.Model.DatePickedListener;
+import ymz.yma.awesomepersiancalendar.DatePicker;
+import ymz.yma.awesomepersiancalendar.Model.CalendarBuilder;
+import ymz.yma.awesomepersiancalendar.Model.DatePickedListener;
 
 
 public class MainActivity extends AppCompatActivity {

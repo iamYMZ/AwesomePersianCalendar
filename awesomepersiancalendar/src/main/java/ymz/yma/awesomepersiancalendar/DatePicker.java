@@ -1,4 +1,4 @@
-package yma.ymz.AwesomePersianCalendar;
+package ymz.yma.awesomepersiancalendar;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -32,12 +32,13 @@ import android.widget.Toast;
 
 import java.util.Locale;
 
-import yma.ymz.AwesomePersianCalendar.Model.CalendarBuilder;
-import yma.ymz.AwesomePersianCalendar.Model.DatePickedListener;
-import yma.ymz.AwesomePersianCalendar.Model.CoreCalendar;
-import yma.ymz.AwesomePersianCalendar.Model.PickDayListener;
-import yma.ymz.AwesomePersianCalendar.Model.PickedDay;
+import ymz.yma.awesomepersiancalendar.Model.CalendarBuilder;
+import ymz.yma.awesomepersiancalendar.Model.DatePickedListener;
+import ymz.yma.awesomepersiancalendar.Model.CoreCalendar;
+import ymz.yma.awesomepersiancalendar.Model.PickDayListener;
+import ymz.yma.awesomepersiancalendar.Model.PickedDay;
 
+@SuppressLint("ValidFragment")
 public class DatePicker extends DialogFragment implements PickDayListener {
 
     View root;
@@ -66,7 +67,7 @@ public class DatePicker extends DialogFragment implements PickDayListener {
 
 
 
-    protected static CalendarBuilder Builder(FragmentActivity context , DatePickedListener listener) {
+    public static CalendarBuilder Builder(FragmentActivity context, DatePickedListener listener) {
         return new CalendarBuilder(context,listener);
     }
 
