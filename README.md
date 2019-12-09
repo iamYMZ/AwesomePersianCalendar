@@ -15,7 +15,7 @@ Add to your root build.gradle:
 allprojects {
 	repositories {
 	  ...
-	  maven { url "https://jitpack.io" }
+	  maven { url "https://dl.bintray.com/ymz/AwesomePersianCalendar" }
 	}
 }
 
@@ -25,7 +25,7 @@ allprojects {
 
 ```
 dependencies {
-  compile 'com.github.yalantis:jellytoolbar:v1.0'
+  implementation 'ymz.yma.awesomepersiancalendar:awesomepersiancalendar:1.0.2'
 }
 ```
 ### How to use this library in your project?
