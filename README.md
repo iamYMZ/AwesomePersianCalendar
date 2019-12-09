@@ -9,19 +9,8 @@ Android Best Persian Jalali customizable calendar .
 * Android SDK 19+
 
 ### Usage
-Add to your root build.gradle:
 
-```
-allprojects {
-	repositories {
-	  ...
-	  maven { url "https://dl.bintray.com/ymz/AwesomePersianCalendar" }
-	}
-}
-
-```
-
-### Add the dependency:
+Add the dependency:
 
 ```
 dependencies {
