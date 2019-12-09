@@ -1,6 +1,6 @@
 # AwesomePersianCalendar
 
-Android Best Persian Jalali customizable calendar .
+Android Persian Jalali customizable calendar .
 
 ![Image of Calendar](screenshot.png)
 
