@@ -19,9 +19,9 @@ dependencies {
 ```
 ### How to use this library in your project?
 
-user PersianCalendar.Builder to configure and build calendar , then call show() method from builder to showUp ;)
+use PersianCalendar.Builder to configure and build calendar , then call show() method from builder to showUp ;)
 
-```
+```java
 CalendarBuilder picker = PersianCalendar.Builder(this, new DatePickedListener() {
             @Override
             public void onDatePicked(int Year, int Month, int Day) {
